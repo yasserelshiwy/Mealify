@@ -1,0 +1,23 @@
+:root:has(.mood input:checked ) {
+    --section-color:#252525;
+    --main-color:#fff;
+    --heading-color:#ffff;
+    --background-color:#202020;
+    --span-color: #c17e1f;
+    --button-hover:#ff9f19;
+    --color-span2: #9f9f9f;
+    --icon-color:#56565b7a;
+    --icon-color-hover:#37373f;
+    --color-light:  #171717;
+    --white-color:#171717;
+    --p-color:#fff;
+    --nav-list-bg:#212529;
+    --nav-bg:#000000db;
+    --ditails-color: hsl(0deg 0% 0.14%);
+}
+:root:has(.mood input:checked ) .light {
+    display: inline-block;
+}
+:root:has(.mood input:checked ) .dark {
+    display: none;
+}
